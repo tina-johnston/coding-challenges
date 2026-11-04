@@ -14,4 +14,4 @@ Run a mock pairing interview.
 3. Create `attempts/<slug>/<today YYYY-MM-DD>/` (add `-2` if it exists) and copy the sandbox parts the challenge needs into it.
 4. Read the brief aloud as an interviewer would: just the ask in quotes, nothing from "Slice" or "Watch for". Then stop and wait for clarifying questions.
 5. Note the start time. During the challenge follow CLAUDE.md: don't solve, tiered hints, time callouts, one curveball from the brief or the study guide.
-6. When Tina says she is finished or time is up, tell Tina to run `/done`.
+6. When Tina says they are finished or time is up, tell Tina to run `/done`.
