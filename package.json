@@ -1,0 +1,12 @@
+{
+  "name": "interview-prep",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "try": "tsx watch scratch/try.ts"
+  },
+  "devDependencies": {
+    "tsx": "4.19.2",
+    "typescript": "5.6.3"
+  }
+}

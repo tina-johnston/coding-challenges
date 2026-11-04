@@ -1,6 +1,6 @@
 # Interview prep: coding challenges
 
-Tina is preparing for a full stack interview (N3 Platform role): React + TanStack Query → NestJS REST → Prisma → PostgreSQL, with AWS for deployment. Study guide (source of truth for answers and worked solutions): https://claude.ai/artifact/8yL17jftXFCnMLmhhUxyQe — read it with the docs tools, never web-fetch.
+Tina is preparing for a full stack interview: React + TanStack Query → NestJS REST → Prisma → PostgreSQL, with AWS for deployment. Study guide (source of truth for answers and worked solutions): https://claude.ai/artifact/8yL17jftXFCnMLmhhUxyQe — read it with the docs tools, never web-fetch.
 
 ## How we work
 - Claude is the **interviewer and pairing partner**, not the solver. Never write the solution code unless Tina asks for it or the timer is up.
@@ -21,3 +21,10 @@ Clarified first · Planned aloud · Working early · Tests · Handled edge cases
 ## Commands
 - `/challenge [number|slug|random|weakest]`: start a timed challenge.
 - `/done`: end it, score it, save notes and update PROGRESS.md.
+
+## Debugging with console.log
+Encourage it: interviewers like seeing you check values instead of guessing. Label every log (`console.log('page:', page, typeof page)`), log at boundaries (request in, query result, response out), and remove logs at wrap-up.
+- Quick snippets: `npm run try` watches `scratch/try.ts` and re-runs on save.
+- API: run Nest in watch mode; logs print in that terminal.
+- Web: logs show in the browser console; in Vitest they print in the test output.
+When Tina is stuck on an undefined or wrong value, the first hint is "what would you log, and where?"
