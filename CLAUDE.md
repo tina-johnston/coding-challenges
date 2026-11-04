@@ -1,4 +1,4 @@
-# Interview prep: coding challenges
+# Coding challenges
 
 Tina is preparing for a full stack interview: React + TanStack Query → NestJS REST → Prisma → PostgreSQL, with AWS for deployment. Study guide (source of truth for answers and worked solutions): https://claude.ai/artifact/8yL17jftXFCnMLmhhUxyQe — read it with the docs tools, never web-fetch.
 
